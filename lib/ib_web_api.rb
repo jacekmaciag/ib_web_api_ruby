@@ -1,4 +1,7 @@
+require_relative 'ib_web_api/client'
+require_relative 'ib_web_api/version'
+
 module IbWebApi
-  HOST = 'api.ibkr.com'
-  API_VERSION = 'v1'
+  IB_HOST = 'api.ibkr.com'
+  IB_API_VERSION = 'v1'
 end
